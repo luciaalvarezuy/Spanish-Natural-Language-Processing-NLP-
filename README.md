@@ -1,1 +1,75 @@
 # Spanish-Natural-Language-Processing-NLP-
+
+
+# Spanish NLP Review Analysis
+
+This project presents a simple end-to-end Natural Language Processing (NLP) pipeline applied to public Google Maps reviews about the Faculty of Psychology (Universidad de la República, Uruguay).
+
+The objective is to demonstrate how unstructured opinion text can be processed and analyzed using modern NLP techniques.
+
+--------------------------------------------------
+
+PROJECT GOALS
+
+• Process Spanish text reviews
+• Extract meaningful textual features
+• Apply transformer-based NLP tools
+• Explore semantic similarity between reviews
+• Identify themes through clustering
+
+--------------------------------------------------
+
+DATASET
+
+The dataset contains Google Maps reviews with the following fields:
+
+rating  → numerical score assigned by the reviewer  
+fecha   → relative publication date  
+texto   → review text  
+
+The analysis focuses mainly on the textual content.
+
+--------------------------------------------------
+
+NLP PIPELINE
+
+1. Text preprocessing
+   - Tokenization
+   - Text cleaning
+   - Stopword removal
+   - Lemmatization (SpaCy)
+
+2. Feature extraction
+   - Bag of Words
+   - TF-IDF
+   - Sentence embeddings
+
+3. Transformer models
+   - Sentiment analysis
+   - Zero-shot classification
+   - Question answering
+   - Text generation
+
+4. Semantic clustering
+   - K-Means clustering on sentence embeddings
+
+5. Visualization
+   - PCA projection of the semantic space
+
+--------------------------------------------------
+
+TOOLS
+
+Python  
+Pandas  
+NLTK  
+SpaCy  
+Scikit-learn  
+Hugging Face Transformers  
+Sentence Transformers  
+
+--------------------------------------------------
+
+NOTE
+
+This notebook is intended as a practical demonstration of applied NLP techniques for opinion mining in Spanish text.
